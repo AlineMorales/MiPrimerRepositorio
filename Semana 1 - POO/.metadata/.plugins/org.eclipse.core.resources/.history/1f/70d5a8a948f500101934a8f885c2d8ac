@@ -1,0 +1,10 @@
+package com.mx.Automovil;
+
+public class Automovil {
+	//declaracion de los atributos 
+	private String marca; 
+	private String subMarca;
+	private int precio;
+	private String color;
+
+}

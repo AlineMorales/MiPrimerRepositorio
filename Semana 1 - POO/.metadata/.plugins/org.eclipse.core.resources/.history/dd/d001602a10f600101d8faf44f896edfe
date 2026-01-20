@@ -1,0 +1,18 @@
+package com.mx.Empleado;
+
+public class Empleado {
+	
+	private String nombre;
+	private String apellidoP;
+	private String apellidoM;
+	private Long telefono;
+	private int edad;
+	private double sueldo;
+	
+	public Empleado() {
+		
+	}
+	
+	
+
+}

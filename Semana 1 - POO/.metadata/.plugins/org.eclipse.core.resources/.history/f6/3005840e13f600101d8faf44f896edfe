@@ -1,0 +1,5 @@
+package com.mx.Empleado;
+//para implementar una interfaz se ocupa la palabra reservada "implements"
+public class Implementacion implements IMetodos{
+
+}

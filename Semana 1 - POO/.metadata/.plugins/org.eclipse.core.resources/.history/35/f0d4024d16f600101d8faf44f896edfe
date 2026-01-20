@@ -1,0 +1,10 @@
+package com.mx.Empleado;
+
+public class Principal {
+	
+	public static void main(String args[] ) {
+		//instancia el objeto 
+		Empleado emp1 = new Empleado("David", "Gonzales", "Jimenez", 8527418754L, 58, 6500.13);
+	}
+
+}

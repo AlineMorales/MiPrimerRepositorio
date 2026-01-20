@@ -1,0 +1,108 @@
+package com.mx.Empleado;
+
+import java.util.Scanner;
+
+public class Principal {
+	
+	public static void main(String args[] ) {
+		//instancia el objeto 
+		Empleado emp1 = new Empleado("David", "Gonzales", "Jimenez", 8527418754L, 58, 6500.13);
+		Empleado emp2 = new Empleado("Jose","Moreno","Hernandez",735818754L,25,2500.13 );
+		Empleado emp3 = new Empleado("Axel", "Garcia", "Oropeza", 5478620158L, 45, 30000.50);
+		Empleado emp4 = new Empleado("Jose", "Ramirez", "Diaz", 5478764654L, 38, 9500.30);
+		Empleado emp5 = new Empleado("Rafael", "Medina", "Lopez", 589503414L, 30, 29000.55);
+		Empleado emp6 = new Empleado(" Jose", " Anaya ", " Sanchez" ,7714043645L, 23, 15000);
+		Empleado emp7 = new Empleado("Laura", "Hernandez", "Ruiz", 9982345678L, 32, 8200.50);
+		
+		//objeto auxiliar
+		Empleado empAux = null;
+		
+		//Instanciar la clase de implementacion para poder ocupar todos los metodos declarados 
+		Implementacion imp = new Implementacion();
+		
+		//alamcenar todos los ojetos en la lista 
+		imp.create(0, emp1);
+		imp.create(1, emp2);
+		imp.create(2, emp3);
+		imp.create(3, emp4);
+		imp.create(4, emp5);
+		imp.create(5, emp6);
+		imp.create(6, emp7);
+		
+//		//mostrar
+//		imp.read();
+//		
+//		//buscar
+//		empAux = imp.buscar(1);
+//		System.out.println("Elemento encontrado: " + empAux );
+//		
+//		//editar
+//		empAux = imp.buscar(1);
+//		empAux.setNombre("Julian");
+//		empAux.setSueldo(85);
+//		imp.update(1, emp2);
+//		System.out.println("Elemento editado " + empAux);
+//		
+//		//eliminar
+//		imp.delete(2);
+//		imp.read();
+//		
+//		//contar
+//		imp.contar();
+		
+		//declaracion de variables
+		Scanner scan = new Scanner(System.in);
+		int menuP = 0, menuE = 0, indice =0;
+		
+		String nombre, apellidoP, apellidoM;
+		Long telefono;
+		int edad;
+		double sueldo;
+		
+		do {
+			System.out.println("******M E N U*******");
+			System.out.println("1.- CREATE");
+			System.out.println("2.- READ");
+			System.out.println("3.- UPDATE");
+			System.out.println("4.- DELETE");
+			System.out.println("5.- SEARCH");
+			System.out.println("6.- COUNT");
+			System.out.println("7.- EXIT");
+			System.out.println("ELIGE UNA OPCION VALIDA EN EL MENU");
+			
+			//declaracion del bloque try-catch para evitar que el programa se detenga si el 
+			//usuario introduce valores no numericos 
+			try {
+				menuP = scan.nextInt();
+				scan.nextLine();
+				
+				//inicia bloque switch 
+				switch(menuP) {
+				case 1: 
+					System.out.println("<<<<<<<<C R E A T E>>>>>>>>");
+					System.out.println("Ingrese los sigueintes datos para registrar al empleado");
+					
+					System.out.println("Nombre");
+					nombre = scan.nextLine();
+					
+					System.out.println("Apellido Paterno");
+					apellidoP = scan.nextLine();
+					
+					System.out.println("Apellido Materno");
+					apellidoM = scan.nextLine();
+					
+					System.out.println("Numero de Telefono");
+					telefono = scan.nextLong();
+					scan.nextLine();
+					
+					
+				}
+				
+			}catch(Exception e) {
+				
+			}
+		}while(menuP != 7);
+	
+	}
+
+}
