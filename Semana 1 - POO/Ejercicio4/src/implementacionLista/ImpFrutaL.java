@@ -6,4 +6,4 @@ public class ImpFrutaL extends ImpGenLista {
 		System.out.println("Existe " + lista.size() + " frutas en la lista");
 	}
 
-}
+} 

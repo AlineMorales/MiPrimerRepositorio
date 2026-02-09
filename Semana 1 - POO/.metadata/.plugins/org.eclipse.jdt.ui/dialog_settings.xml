@@ -40,10 +40,11 @@
 		<item key="SynchronizedModifier" value="false"/>
 		<item key="Comments" value="false"/>
 		<item key="VisibilityModifier" value="1"/>
+		<item key="InsertPosition.v2" value="1"/>
 	</section>
 	<section name="DialogBounds_GenerateToStringDialog">
-		<item key="DIALOG_X_ORIGIN" value="519"/>
-		<item key="DIALOG_Y_ORIGIN" value="7"/>
+		<item key="DIALOG_X_ORIGIN" value="584"/>
+		<item key="DIALOG_Y_ORIGIN" value="23"/>
 		<item key="DIALOG_WIDTH" value="513"/>
 		<item key="DIALOG_HEIGHT" value="709"/>
 		<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-15|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
@@ -97,6 +98,16 @@
 		<item key="DIALOG_Y_ORIGIN" value="50"/>
 		<item key="DIALOG_WIDTH" value="577"/>
 		<item key="DIALOG_HEIGHT" value="548"/>
+		<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-15|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
+	</section>
+	<section name="OverrideMethodDialog">
+		<item key="showtypes" value="true"/>
+	</section>
+	<section name="DialogBounds_OverrideMethodDialog">
+		<item key="DIALOG_X_ORIGIN" value="512"/>
+		<item key="DIALOG_Y_ORIGIN" value="61"/>
+		<item key="DIALOG_WIDTH" value="526"/>
+		<item key="DIALOG_HEIGHT" value="532"/>
 		<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-15|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
 	</section>
 </section>

@@ -9,8 +9,21 @@
     <fullyQualifiedTypeName name="java.util.InputMismatchException"/>
     <fullyQualifiedTypeName name="java.lang.Exception"/>
     <fullyQualifiedTypeName name="Principal.IMetodosLista"/>
-    <fullyQualifiedTypeName name="java.util.List"/>
-    <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="implementacionLista.ImpGenLista"/>
     <fullyQualifiedTypeName name="implementacionLista.ImpFrutaL"/>
+    <fullyQualifiedTypeName name="com.mx.Herencia.Hijo"/>
+    <fullyQualifiedTypeName name="com.mx.ClaseAbstracta.Profesionista"/>
+    <fullyQualifiedTypeName name="com.mx.ClaseAbstracta.Abogado"/>
+    <fullyQualifiedTypeName name="com.mx.ClaseAbstracta.Medico"/>
+    <fullyQualifiedTypeName name="com.mx.Polimorfismo.Deportivo"/>
+    <fullyQualifiedTypeName name="com.mx.Polimorfismo.Turismo"/>
+    <fullyQualifiedTypeName name="com.mx.Polimorfismo.PickUp"/>
+    <fullyQualifiedTypeName name="com.mx.Polimorfismo.Automovil"/>
+    <fullyQualifiedTypeName name="java.security.Principal"/>
+    <fullyQualifiedTypeName name="com.mx.EstaticosYConstantes.Prinicipal"/>
+    <fullyQualifiedTypeName name="java.lang.FunctionalInterface"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="Entidad.Alumno"/>
+    <fullyQualifiedTypeName name="Principal.ISaludo"/>
 </qualifiedTypeNameHistroy>
